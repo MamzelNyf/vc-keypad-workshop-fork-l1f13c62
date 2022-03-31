@@ -1,6 +1,6 @@
 {
   "name": "@wcd/mamzelnyf.vc-keypad-workshop-fork-l1f13c62",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "serve": "npx wcd-cli@latest serve KPrCNT3K6ZUs2xR8MfYW --open"
   }
