@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<script type="module" src="./dist/index.js"></script>
+	<!-- uncomment to see how the style can change -->
+	<link rel="stylesheet" href="./index.css" />
+	<style>
+		body {
+			background-color: #ffffff;
+			color: black;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		a {
+			color: blue;
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<h1>vc-keypad</h1>
+		<vc-keypad></vc-keypad>
+		<br/><br/><br/><br/><br/><br/><br/>
+		<vc-keypad no-display keys='["","▲","","◀","","▶","","▼","","","",""]' actionText="💥 Pew"></vc-keypad>
+		<p>Made with <a href="https://webcomponents.dev">WebComponents.dev</a></p>
+	</main>
+</body>
+
+</html>

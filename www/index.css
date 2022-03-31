@@ -1,0 +1,40 @@
+
+vc-keypad::part(row position4) {
+  color: red;
+  border: 2px green solid;
+  font-size: 30px;
+  display: none;
+}
+
+vc-keypad::part(button) {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+}
+
+vc-keypad::part(button action) {
+  border-radius: 6px;
+  width: 100%;
+  background-color: red;
+}
+
+vc-keypad::part(button position5) {
+  display: none;
+}
+
+vc-keypad::part(button position1) {
+  display: none;
+}
+
+vc-keypad::part(button position3) {
+  display: none;
+}
+
+vc-keypad::part(button position7) {
+  display: none;
+}
+
+vc-keypad::part(button position9) {
+  display: none;
+}
