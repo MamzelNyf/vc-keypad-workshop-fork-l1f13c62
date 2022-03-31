@@ -42,7 +42,7 @@ export class VcKeypad extends LitElement {
         border: 1px solid var(--vc-button-border-color, #000);
         border-radius: 6px;
         cursor: pointer;
-        background: #871fff;
+        background: #39ac7c;
         font-size: 1.4rem;
         margin: 5px;
       }
